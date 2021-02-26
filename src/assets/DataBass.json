@@ -1,0 +1,465 @@
+{
+  "FT": {
+    "R": [
+      {
+        "status": "和局",
+        "wtype": "R",
+        "name_c": "曼聯[主]",
+        "name_h": "阿仙奴",
+        "ball_c": "1球",
+        "ball_h": "-",
+        "ioratio_c": "0.910",
+        "ioratio_h": "0.970",
+        "result_c": "1",
+        "result_h": "0",
+        "win_c": "退回本金",
+        "win_h": "退回本金",
+        "Description_c": ["讓球為'1球'", "故無法分出勝負", "退回本金"],
+        "Description_h": ["讓球為'1球'", "故無法分出勝負", "退回本金"]
+      },
+      {
+        "status": "全贏/全輸",
+        "wtype": "R",
+        "name_c": "皇家馬德里[主]",
+        "name_h": "巴塞隆納",
+        "ball_c": "1球半/2球",
+        "ball_h": "-",
+        "ioratio_c": "0.920",
+        "ioratio_h": "0.960",
+        "result_c": "3",
+        "result_h": "0",
+        "win_c": "贏920元",
+        "win_h": "輸本金1000元",
+        "win_c_2": "輸本金1000元",
+        "win_h_2": "贏960元",
+        "Description_c": ["贏1000 X (0.920) = 920", "(不含本金)"],
+        "Description_h": [
+          "讓球為'1球/2球'",
+          "賽果兩隊分數總合為3",
+          "故投注客隊輸掉本金"
+        ],
+        "Description_c_2": [
+          "讓球為'1球/2球'",
+          "賓果兩隊分數總合為1",
+          "故投注主隊輸掉本金"
+        ],
+        "Description_h_2": ["贏1000 X (0.960) = 960", "(不含本金)"]
+      },
+      {
+        "status": "贏一半/輸一半",
+        "wtype": "R",
+        "name_c": "皇家馬德里[主]",
+        "name_h": "巴塞隆納",
+        "ball_c": "1球半/2球",
+        "ball_h": "-",
+        "ioratio_c": "0.920",
+        "ioratio_h": "0.960",
+        "result_c": "2",
+        "result_h": "0",
+        "win_c": "贏460元",
+        "win_h": "輸本金500元",
+        "Description_c": [
+          "贏1000 X (50%) X (1+0.92)",
+          "-1000 X 50% = 460",
+          "(不含本金)"
+        ],
+        "Description_h": ["輸本金500元", "1000 (50%) - 1000 = -500"]
+      }
+    ],
+    "OU": [
+      {
+        "status": "全贏/全輸",
+        "wtype": "OU",
+        "name_c": "皇家馬德里[主]",
+        "name_h": "巴塞隆納",
+        "ball_c": "2.5大",
+        "ball_h": "2.5小",
+        "ioratio_c": "0.960",
+        "ioratio_h": "0.880",
+        "result_c": "1",
+        "result_h": "2",
+        "win_c": "贏960元",
+        "win_h": "輸本金1000元",
+        "Description_c": ["贏1000 X (0.960) = 960", "(不含本金)"],
+        "Description_h": [
+          "大小球為'2.5大/2.5小'",
+          "賽果兩隊分數總合為3",
+          "故投注2.5小輸掉本金"
+        ]
+      },
+      {
+        "status": "和局",
+        "wtype": "OU",
+        "name_c": "皇家馬德里[主]",
+        "name_h": "巴塞隆納",
+        "ball_c": "3平大",
+        "ball_h": "3平小",
+        "ioratio_c": "0.900",
+        "ioratio_h": "0.900",
+        "result_c": "2",
+        "result_h": "1",
+        "win_c": "退回本金",
+        "win_h": "退回本金",
+        "Description_c": [
+          "大小球為'3平大/3平小'",
+          "賽果兩隊分數總合為3",
+          "故無法分出勝負退回本金"
+        ],
+        "Description_h": [
+          "大小球為'3平大/3平小'",
+          "賽果兩隊分數總合為3",
+          "故無法分出勝負退回本金"
+        ]
+      }
+    ]
+  },
+  "BK": {
+    "R": [
+      {
+        "status": "和局",
+        "wtype": "R",
+        "name_c": "熱火[主]",
+        "name_h": "超音速",
+        "ball_c": "2平",
+        "ball_h": "-",
+        "ioratio_c": "0.940",
+        "ioratio_h": "0.940",
+        "result_c": "91",
+        "result_h": "89",
+        "win_c": "退回本金",
+        "win_h": "退回本金",
+        "Description_c": ["讓球為'2平'", "故無法分出勝負", "退回本金"],
+        "Description_h": ["讓球為'1球'", "故無法分出勝負", "退回本金"]
+      },
+      {
+        "status": "全贏/全輸",
+        "wtype": "R",
+        "name_c": "熱火[主]",
+        "name_h": "超音速",
+        "ball_c": "平手",
+        "ball_h": "-",
+        "ioratio_c": "0.940",
+        "ioratio_h": "0.940",
+        "result_c": "103",
+        "result_h": "89",
+        "win_c": "贏940元",
+        "win_h": "輸本金1000元",
+        "Description_c": ["贏1000 X (0.940) = 940", "(不含本金)"],
+        "Description_h": ["輸 1000 x -1 = -1000"]
+      },
+      {
+        "status": "贏一半/輸一半",
+        "wtype": "R",
+        "name_c": "熱火[主]",
+        "name_h": "超音速",
+        "ball_c": "2+50",
+        "ball_h": "-",
+        "ioratio_c": "0.940",
+        "ioratio_h": "0.940",
+        "result_c": "95",
+        "result_h": "93",
+        "win_c": "贏460元",
+        "win_h": "輸本金500元",
+        "Description_c": [
+          "贏分洞 1000 X (50%) X (1+0.94)",
+          "-1000 X 50% = 470",
+          "(不含本金)"
+        ],
+        "Description_h": ["輸分洞 本金500元", "1000 (50%) - 1000 = -500"]
+      }
+    ],
+    "OU": [
+      {
+        "status": "全贏/全輸",
+        "wtype": "OU",
+        "name_c": "馬刺[主]",
+        "name_h": "活塞",
+        "ball_c": "186.5大",
+        "ball_h": "186.5小",
+        "ioratio_c": "0.900",
+        "ioratio_h": "0.900",
+        "result_c": "95",
+        "result_h": "93",
+        "win_c": "贏900元",
+        "win_h": "輸本金1000元",
+        "Description_c": ["贏1000 X (0.900) = 900", "(不含本金)"],
+        "Description_h": [
+          "大小球為'186.5大/186.5小'",
+          "賽果兩隊分數總合為188",
+          "故投注186.5小輸掉本金"
+        ]
+      },
+      {
+        "status": "和局",
+        "wtype": "OU",
+        "name_c": "馬刺[主]",
+        "name_h": "活塞",
+        "ball_c": "192平大",
+        "ball_h": "192平小",
+        "ioratio_c": "0.900",
+        "ioratio_h": "0.900",
+        "result_c": "103",
+        "result_h": "89",
+        "win_c": "退回本金",
+        "win_h": "退回本金",
+        "Description_c": [
+          "大小球為'192平大/192平小'",
+          "賽果兩隊分數總合為192",
+          "故無法分出勝負退回本金"
+        ],
+        "Description_h": [
+          "大小球為'192平大/192平小'",
+          "賽果兩隊分數總合為192",
+          "故無法分出勝負退回本金"
+        ]
+      }
+    ]
+  },
+  "BS": {
+    "R": [
+      {
+        "status": "和局",
+        "wtype": "R",
+        "name_c": "紅襪[主]",
+        "name_h": "天使",
+        "ball_c": "1平",
+        "ball_h": "-",
+        "ioratio_c": "0.940",
+        "ioratio_h": "0.940",
+        "result_c": "4",
+        "result_h": "3",
+        "win_c": "退回本金",
+        "win_h": "退回本金",
+        "Description_c": ["讓球為'1球'", "故無法分出勝負", "退回本金"],
+        "Description_h": ["讓球為'1球'", "故無法分出勝負", "退回本金"]
+      },
+      {
+        "status": "全贏/全輸",
+        "wtype": "R",
+        "name_c": "紅襪[主]",
+        "name_h": "天使",
+        "ball_c": "平手",
+        "ball_h": "-",
+        "ioratio_c": "0.940",
+        "ioratio_h": "0.940",
+        "result_c": "6",
+        "result_h": "3",
+        "win_c": "贏940元",
+        "win_h": "輸本金1000元",
+        "Description_c": ["贏1000 X (0.940) = 940", "(不含本金)"],
+        "Description_h": ["輸 1000 x -1 = -1000"]
+      },
+      {
+        "status": "贏一半/輸一半",
+        "wtype": "R",
+        "name_c": "紅襪[主]",
+        "name_h": "天使",
+        "ball_c": "2+50",
+        "ball_h": "-",
+        "ioratio_c": "0.940",
+        "ioratio_h": "0.960",
+        "result_c": "6",
+        "result_h": "4",
+        "win_c": "贏460元",
+        "win_h": "輸本金500元",
+        "Description_c": [
+          "贏分洞 1000 X (50%) X (1+0.94)",
+          "-1000 X 50% = 470",
+          "(不含本金)"
+        ],
+        "Description_h": ["輸分洞 本金500元", "1000 (50%) - 1000 = -500"]
+      }
+    ],
+    "OU": [
+      {
+        "status": "全贏/全輸",
+        "wtype": "OU",
+        "name_c": "藍鳥[主]",
+        "name_h": "水手",
+        "ball_c": "9.5大",
+        "ball_h": "9.5小",
+        "ioratio_c": "0.900",
+        "ioratio_h": "0.900",
+        "result_c": "6",
+        "result_h": "4",
+        "win_c": "贏900元",
+        "win_h": "輸本金1000元",
+        "Description_c": ["贏1000 X (0.900) = 900", "(不含本金)"],
+        "Description_h": [
+          "大小球為'9.5大/9.5小'",
+          "賽果兩隊分數總合為10",
+          "故投注9.5小輸掉本金"
+        ]
+      },
+      {
+        "status": "和局",
+        "wtype": "OU",
+        "name_c": "藍鳥[主]",
+        "name_h": "水手",
+        "ball_c": "9平大",
+        "ball_h": "9平小",
+        "ioratio_c": "0.900",
+        "ioratio_h": "0.900",
+        "result_c": "103",
+        "result_h": "89",
+        "win_c": "退回本金",
+        "win_h": "退回本金",
+        "Description_c": [
+          "大小球為'9平大/9平小'",
+          "賽果兩隊分數總合為9",
+          "故無法分出勝負退回本金"
+        ],
+        "Description_h": [
+          "大小球為'9平大/9平小'",
+          "賽果兩隊分數總合為9",
+          "故無法分出勝負退回本金"
+        ]
+      }
+    ]
+  },
+  "Member": [
+    [
+      { "name": "save", "style": "" },
+      { "name": "trans", "style": "trans" },
+      { "name": "getcash", "style": "take" }
+    ],
+    [
+      { "name": "mine", "style": "" },
+      { "name": "moneybag", "style": "lf_wallet" },
+      { "name": "transrecord", "style": "lf_dealre" },
+      { "name": "now", "style": "lf_betting" },
+      { "name": "record", "style": "lf_betre" },
+      { "name": "holl", "style": "lf_betre" },
+      { "name": "help", "style": "lf_help" },
+      { "name": "contact", "style": "lf_call" },
+      { "name": "message", "style": "lf_mess" },
+      { "name": "set", "style": "lf_ctrl" },
+      { "name": "about", "style": "lf_about" },
+      { "name": "join", "style": "lf_join" },
+      { "name": "download", "style": "lf_app" }
+    ]
+  ],
+  "About": [
+    { "name": "美國職棒大聯盟", "style": "mlb", "href": "#" },
+    { "name": "日本職棒官方網站", "style": "npb", "href": "#" },
+    { "name": "中華職棒官方網站", "style": "cpbl", "href": "#" },
+    { "name": "美國NBA職業籃球官方網站", "style": "nba", "href": "#" },
+    { "name": "DONBEST", "style": "donbest", "href": "#" },
+    { "name": "韓國男子籃球", "style": "kbl", "href": "#" },
+    { "name": "NCAA官方網站", "style": "ncaa", "href": "#" },
+    { "name": "國家美式足球網站", "style": "nfl", "href": "#" },
+    { "name": "美國職棒大聯盟", "style": "mlb", "href": "#" },
+    { "name": "日本職棒官方網站", "style": "npb", "href": "#" },
+    { "name": "中華職棒官方網站", "style": "cpbl", "href": "#" },
+    { "name": "美國NBA職業籃球官方網站", "style": "nba", "href": "#" },
+    { "name": "DONBEST", "style": "donbest", "href": "#" },
+    { "name": "韓國男子籃球", "style": "kbl", "href": "#" },
+    { "name": "NCAA官方網站", "style": "ncaa", "href": "#" },
+    { "name": "國家美式足球網站", "style": "nfl", "href": "#" }
+  ],
+  "Save": [
+    { "name": "網銀支付", "style": "" },
+    { "name": "銀行卡轉帳", "style": "bankcard" },
+    { "name": "支付寶轉卡", "style": "paypalcard" },
+    { "name": "微信", "style": "wdchat" },
+    { "name": "支付寶", "style": "paypal" },
+    { "name": "QQ支付", "style": "QQ" },
+    { "name": "銀聯快捷", "style": "UP" },
+    { "name": "流水號匯款", "style": "num" },
+    { "name": "銀聯掃碼", "style": "QRcode" },
+    { "name": "代客充值", "style": "instead" },
+    { "name": "網關卡", "style": "netcard" },
+    { "name": "微信轉卡", "style": "wechatcard" },
+    { "name": "閃雲付轉卡", "style": "cloudcard" },
+    { "name": "大額充值", "style": "big" }
+  ],
+  "Login": [
+    { "name": "FT", "style": "_soc" },
+    { "name": "BK", "style": "_bsk" },
+    { "name": "WB", "style": "_bsk" },
+    { "name": "BS", "style": "_base" },
+    { "name": "CB", "style": "_base" },
+    { "name": "JB", "style": "_base" },
+    { "name": "KB", "style": "_base" },
+    { "name": "AF", "style": "_fob" },
+    { "name": "GD", "style": "_rh" },
+    { "name": "EB", "style": "_esp" },
+    { "name": "ST", "style": "_temp" },
+    { "name": "LO", "style": "_lot" },
+    { "name": "BL", "style": "_sno" },
+    { "name": "EK", "style": "_sno" },
+    { "name": "HB", "style": "_pp" },
+    { "name": "IB", "style": "_iceb" },
+    { "name": "PO", "style": "_sno" },
+    { "name": "VB", "style": "_vball" }
+  ],
+  "Discount_left": [
+    { "name": "全部優惠", "style": "" },
+    { "name": "限時活動", "style": "ic2" },
+    { "name": "新人首存", "style": "ic3" },
+    { "name": "日常活動", "style": "ic4" },
+    { "name": "高額返水", "style": "ic5" }
+  ],
+  "Discount_content": [
+    {
+      "types": "限時優惠",
+      "image": "",
+      "date": "2020/7/18-2020/7/26",
+      "title": "存款返21% 當贏不讓",
+      "propaganda_text": ["最高返利", "元"],
+      "propaganda_price": "21672",
+      "content": [
+        "限時優惠限時優惠限時優惠限時優惠",
+        "限時優惠限時優惠限時優惠限時優惠限時優惠限時優惠",
+        "限時優惠限時優惠",
+        "限時優惠限時優惠限時優惠限時優惠限時優惠限時優惠限時優惠",
+        "限時優惠限時優惠限時優惠限時優惠限時優惠"
+      ]
+    },
+    {
+      "types": "新人首存",
+      "image": "",
+      "date": "2020/7/18-2020/7/26",
+      "title": "存款返21% 當贏不讓",
+      "propaganda_text": ["最高返利", "元"],
+      "propaganda_price": "21672",
+      "content": [
+        "新人首存新人首存新人首存新人首存",
+        "新人首存新人首存新人首存新人首存新人首存新人首存",
+        "新人首存新人首存",
+        "新人首存新人首存新人首存新人首存新人首存新人首存新人首存",
+        "新人首存新人首存新人首存新人首存新人首存"
+      ]
+    },
+    {
+      "types": "日常活動",
+      "image": "disimg2",
+      "date": "長期活動",
+      "title": "體育連贏8場",
+      "propaganda_text": ["最高可獲得", "元現金獎勵"],
+      "propaganda_price": "12888",
+      "content": [
+        "日常活動日常活動日常活動日常活動",
+        "日常活動日常活動日常活動日常活動日常活動日常活動",
+        "日常活動日常活動",
+        "日常活動日常活動日常活動日常活動日常活動日常活動日常活動",
+        "日常活動日常活動日常活動日常活動日常活動"
+      ]
+    },
+    {
+      "types": "高額返水",
+      "image": "disimg3",
+      "date": "2020/7/18-2020/7/26",
+      "title": "王者回歸 尊享888元",
+      "propaganda_text": ["召回老友享千元禮金"],
+      "propaganda_price": "",
+      "content": [
+        "高額返水高額返水高額返水高額返水",
+        "高額返水高額返水高額返水高額返水高額返水高額返水",
+        "高額返水高額返水",
+        "高額返水高額返水高額返水高額返水高額返水高額返水高額返水",
+        "高額返水高額返水高額返水高額返水高額返水"
+      ]
+    }
+  ]
+}
